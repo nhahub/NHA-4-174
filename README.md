@@ -208,14 +208,4 @@ All settings live in `config.py`. Key ones:
 
 ---
 
-## Team
-
-| Task | Owner |
-|---|---|
-| Transcription Agent | Person 1 |
-| Simplification Agent | Person 2 |
-| Summarization Agent | Person 3 |
-| Orchestrator + CLI | Person 4 |
-| Streamlit UI + Docs | Person 5 |
-
 **Program:** Digital Egypt Pioneers Initiative (DEPI) — Generative AI Track
