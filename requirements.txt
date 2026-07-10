@@ -1,0 +1,39 @@
+# requirements.txt - Voxa 3-Agent System
+# Tested compatible versions. Install with:
+#   pip install -r requirements.txt
+#
+# Python version required: 3.10 or 3.11
+
+# -- Deep learning core --
+# CPU-only install (default, works everywhere):
+torch==2.3.1
+torchaudio==2.3.1
+
+# If you have an NVIDIA GPU and want CUDA acceleration, instead run:
+#   pip install torch==2.3.1 torchaudio==2.3.1 --index-url https://download.pytorch.org/whl/cu121
+# then install the rest of this file normally.
+
+# -- Transcription (Agent 1) --
+#openai-whisper==20231117
+
+# -- NLP models: simplification + summarization (Agents 2 & 3) --
+transformers==4.42.3
+sentencepiece==0.2.0
+accelerate==0.31.0
+protobuf==4.25.3
+
+# -- Audio processing --
+librosa==0.10.2.post1
+soundfile==0.12.1
+numpy==1.26.4
+
+# -- Text processing / evaluation --
+nltk==3.8.1
+jiwer==3.0.4
+pandas==2.2.2
+
+# -- Web interface --
+streamlit==1.36.0
+
+# -- Utilities --
+tqdm==4.66.4

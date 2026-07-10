@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Model files (too large for git — share via Drive instead)
+models/*/
+!models/README.md
+
+# Output data
+data/output/*
+!data/output/.gitkeep
+
+# Streamlit
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
